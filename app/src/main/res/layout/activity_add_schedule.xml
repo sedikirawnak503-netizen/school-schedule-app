@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#f5f5f5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="إضافة جدول حصة جديد"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#1976D2"
+            android:gravity="center"
+            android:layout_marginBottom="24dp" />
+
+        <EditText
+            android:id="@+id/etClassName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="اسم الفصل"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"
+            android:background="#ffffff"
+            android:elevation="2dp" />
+
+        <EditText
+            android:id="@+id/etTeacherName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="اسم المعلم"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"
+            android:background="#ffffff"
+            android:elevation="2dp" />
+
+        <EditText
+            android:id="@+id/etSubjectName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="اسم المادة"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"
+            android:background="#ffffff"
+            android:elevation="2dp" />
+
+        <EditText
+            android:id="@+id/etDay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="اليوم (السبت، الأحد، ...)"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"
+            android:background="#ffffff"
+            android:elevation="2dp" />
+
+        <EditText
+            android:id="@+id/etStartTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="وقت البداية (HH:MM)"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"
+            android:background="#ffffff"
+            android:elevation="2dp" />
+
+        <EditText
+            android:id="@+id/etEndTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="وقت النهاية (HH:MM)"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"
+            android:background="#ffffff"
+            android:elevation="2dp" />
+
+        <EditText
+            android:id="@+id/etLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="المكان (الفصل)"
+            android:padding="12dp"
+            android:layout_marginBottom="24dp"
+            android:background="#ffffff"
+            android:elevation="2dp" />
+
+        <Button
+            android:id="@+id/btnSaveSchedule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="حفظ"
+            android:textColor="#fff"
+            android:background="#4CAF50"
+            android:layout_marginBottom="12dp"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnCancelSchedule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="إلغاء"
+            android:textColor="#fff"
+            android:background="#757575"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</ScrollView>
